@@ -1,6 +1,6 @@
 
 # Tic Tac Toe
-(app/src/main/res/mipmap-hdpi/ic_launcher.png)
+![Logo](app/src/main/res/mipmap-hdpi/ic_launcher.png)
 ## Cuprins
 1. [Descriere](#descriere)
 2. [Capturi de ecran](#capturi-de-ecran)
@@ -41,40 +41,65 @@ Tic Tac Toe este o aplicație Android care permite utilizatorilor să joace clas
 ## Structura proiectului
 
 ```plaintext
-app/
-├── manifests/
-│   └── AndroidManifest.xml
-├── java/
-│   └── dandobre.tictactoe/
-│       ├── MainActivity.java
-│       ├── GameActivity.java
-│       ├── WinningLineView.java
-│       ├── ExampleInstrumentedTest.java
-│       └── ExampleUnitTest.java
-├── res/
-│   ├── drawable/
-│   │   ├── cell_border.xml
-│   │   ├── ic_launcher_background.xml
-│   │   └── ic_launcher_foreground.xml
-│   ├── layout/
-│   │   ├── activity_main.xml
-│   │   └── activity_game.xml
-│   ├── mipmap/
-│   │   ├── ic_launcher/
-│   │   │   ├── ic_launcher.png (hdpi, mdpi, xhdpi, xxhdpi, xxxhdpi)
-│   │   └── ic_launcher_round/
-│   │       ├── ic_launcher_round.webp (hdpi, mdpi, xhdpi, xxhdpi, xxxhdpi)
-│   │       └── ic_launcher_round.xml
-│   ├── values/
-│   │   ├── colors.xml
-│   │   ├── strings.xml
-│   │   ├── styles.xml
-│   │   └── themes/
-│   │       ├── themes.xml
-│   │       └── themes.xml (night)
-│   └── xml/
-│       ├── backup_rules.xml
-│       └── data_extraction_rules.xml
+TicTacToe    
+├── .gradle
+├── .idea
+└── .app
+    ├── build
+    ├── build.gradle
+    └── src
+        ├── androidTest
+        ├── main
+        │   ├── AndroidManifest.xml
+        │   ├── java
+        │   │   └── dandobre
+        │   │       └── tictactoe
+        │   │           ├── GameActivity.java
+        │   │           ├── MainActivity.java
+        │   │           └── WinningLineView.java
+        │   └── res
+        │       ├── drawable
+        │       │   ├── cell_border.xml
+        │       │   ├── ic_launcher_background.xml
+        │       │   └── ic_launcher_foreground.xml
+        │       ├── layout
+        │       │   ├── activity_game.xml
+        │       │   └── activity_main.xml
+        │       ├── mipmap-anydpi-v26
+        │       │   ├── ic_launcher.xml
+        │       │   └── ic_launcher_round.xml
+        │       ├── mipmap-hdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-mdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-xhdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-xxhdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-xxxhdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── values
+        │       │   ├── colors.xml
+        │       │   ├── ic_launcher_background.xml
+        │       │   ├── strings.xml
+        │       │   ├── styles.xml
+        │       │   └── themes.xml
+        │       ├── values-night
+        │       │   └── themes.xml
+        │       └── xml
+        │           ├── backup_rules.xml
+        │           └── data_extraction_rules.xml
+        └── test
+            └── java
+                └── dandobre
+                    └── tictactoe
+                        └── ExampleUnitTest.java
+
 ```
 
 ### Detalii despre directoare
