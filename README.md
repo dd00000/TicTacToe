@@ -1,6 +1,6 @@
 
 # Tic Tac Toe
-
+(app/src/main/res/mipmap-hdpi/ic_launcher.png)
 ## Cuprins
 1. [Descriere](#descriere)
 2. [Capturi de ecran](#capturi-de-ecran)
