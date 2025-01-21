@@ -22,19 +22,19 @@ Tic Tac Toe este o aplicație Android care permite utilizatorilor să joace clas
 ## Capturi de ecran
 
 ### 1. Meniul principal
-![Meniul principal al aplicației Tic Tac Toe](screenshots/main_menu.png)
+<img src="screenshots/main_menu.png" alt="Meniul principal" width="300"/>
 
 ### 2. Tabla de joc la început
-![Tabla de joc la începutul unui joc](screenshots/gameplay_start.png)
+<img src="screenshots/gameplay_start.png" alt="Tabla de joc la începutul unui joc" width="300"/>
 
 ### 3. Joc finalizat - Câștigător
-![Exemplu de câștig pe tabla de joc](screenshots/winning_board.png)
+<img src="screenshots/winning_board.png" alt="Exemplu de câștig pe tabla de joc" width="300"/>
 
 ### 4. Joc finalizat - Egalitate
-![Tabla completă în caz de egalitate](screenshots/draw.png)
+<img src="screenshots/draw.png" alt="Tabla completă în caz de egalitate" width="300"/>
 
 ### 5. Ecranul "Game Over"
-![Ecranul de final al jocului](screenshots/game_over.png)
+<img src="screenshots/game_over.png" alt="Ecranul de final al jocului" width="300"/>
 
 ---
 
