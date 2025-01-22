@@ -1,6 +1,5 @@
-
-# Tic Tac Toe
-
+![Logo](app/src/main/res/mipmap-hdpi/ic_launcher.png)
+#  Tic Tac Toe
 ## Cuprins
 1. [Descriere](#descriere)
 2. [Capturi de ecran](#capturi-de-ecran)
@@ -22,59 +21,78 @@ Tic Tac Toe este o aplicație Android care permite utilizatorilor să joace clas
 ## Capturi de ecran
 
 ### 1. Meniul principal
-![Meniul principal al aplicației Tic Tac Toe](screenshots/main_menu.png)
+<img src="screenshots/main_menu.png" alt="Meniul principal" width="300"/>
 
 ### 2. Tabla de joc la început
-![Tabla de joc la începutul unui joc](screenshots/gameplay_start.png)
+<img src="screenshots/gameplay_start.png" alt="Tabla de joc la începutul unui joc" width="300"/>
 
 ### 3. Joc finalizat - Câștigător
-![Exemplu de câștig pe tabla de joc](screenshots/winning_board.png)
+<img src="screenshots/winning_board.png" alt="Exemplu de câștig pe tabla de joc" width="300"/>
 
 ### 4. Joc finalizat - Egalitate
-![Tabla completă în caz de egalitate](screenshots/draw.png)
+<img src="screenshots/draw.png" alt="Tabla completă în caz de egalitate" width="300"/>
 
 ### 5. Ecranul "Game Over"
-![Ecranul de final al jocului](screenshots/game_over.png)
+<img src="screenshots/game_over.png" alt="Ecranul de final al jocului" width="300"/>
 
 ---
 
 ## Structura proiectului
 
 ```plaintext
-app/
-├── manifests/
-│   └── AndroidManifest.xml
-├── java/
-│   └── dandobre.tictactoe/
-│       ├── MainActivity.java
-│       ├── GameActivity.java
-│       ├── WinningLineView.java
-│       ├── ExampleInstrumentedTest.java
-│       └── ExampleUnitTest.java
-├── res/
-│   ├── drawable/
-│   │   ├── cell_border.xml
-│   │   ├── ic_launcher_background.xml
-│   │   └── ic_launcher_foreground.xml
-│   ├── layout/
-│   │   ├── activity_main.xml
-│   │   └── activity_game.xml
-│   ├── mipmap/
-│   │   ├── ic_launcher/
-│   │   │   ├── ic_launcher.png (hdpi, mdpi, xhdpi, xxhdpi, xxxhdpi)
-│   │   └── ic_launcher_round/
-│   │       ├── ic_launcher_round.webp (hdpi, mdpi, xhdpi, xxhdpi, xxxhdpi)
-│   │       └── ic_launcher_round.xml
-│   ├── values/
-│   │   ├── colors.xml
-│   │   ├── strings.xml
-│   │   ├── styles.xml
-│   │   └── themes/
-│   │       ├── themes.xml
-│   │       └── themes.xml (night)
-│   └── xml/
-│       ├── backup_rules.xml
-│       └── data_extraction_rules.xml
+TicTacToe    
+├── .gradle
+├── .idea
+└── .app
+    ├── build
+    ├── build.gradle
+    └── src
+        ├── androidTest
+        ├── main
+        │   ├── AndroidManifest.xml
+        │   ├── java
+        │   │   └── dandobre
+        │   │       └── tictactoe
+        │   │           ├── GameActivity.java
+        │   │           ├── MainActivity.java
+        │   │           └── WinningLineView.java
+        │   └── res
+        │       ├── drawable
+        │       │   ├── cell_border.xml
+        │       │   ├── ic_launcher_background.xml
+        │       │   └── ic_launcher_foreground.xml
+        │       ├── layout
+        │       │   ├── activity_game.xml
+        │       │   └── activity_main.xml
+        │       ├── mipmap-anydpi-v26
+        │       │   ├── ic_launcher.xml
+        │       │   └── ic_launcher_round.xml
+        │       ├── mipmap-hdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-mdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-xhdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-xxhdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── mipmap-xxxhdpi
+        │       │   ├── ic_launcher.png
+        │       │   └── ic_launcher_round.webp
+        │       ├── values
+        │       │   ├── colors.xml
+        │       │   ├── ic_launcher_background.xml
+        │       │   ├── strings.xml
+        │       │   ├── styles.xml
+        │       │   └── themes.xml
+        │       ├── values-night
+        │       │   └── themes.xml
+        │       └── xml
+        └── test
+
 ```
 
 ### Detalii despre directoare
