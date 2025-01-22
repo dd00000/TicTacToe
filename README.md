@@ -91,13 +91,7 @@ TicTacToe
         │       ├── values-night
         │       │   └── themes.xml
         │       └── xml
-        │           ├── backup_rules.xml
-        │           └── data_extraction_rules.xml
         └── test
-            └── java
-                └── dandobre
-                    └── tictactoe
-                        └── ExampleUnitTest.java
 
 ```
 
