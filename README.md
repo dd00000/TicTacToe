@@ -1,5 +1,5 @@
-
-# ![Logo](app/src/main/res/mipmap-hdpi/ic_launcher.png) Tic Tac Toe
+![Logo](app/src/main/res/mipmap-hdpi/ic_launcher.png)
+#  Tic Tac Toe
 ## Cuprins
 1. [Descriere](#descriere)
 2. [Capturi de ecran](#capturi-de-ecran)
